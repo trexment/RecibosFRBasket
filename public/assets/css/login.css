@@ -1,0 +1,169 @@
+body.login-page {
+    background: linear-gradient(
+            120deg,
+            #c8102e 0%,
+            #ffffff 40%,
+            #006b3c 80%
+    );
+    animation: riojaGradient 10s ease infinite;
+    height: 100vh;
+}
+
+@keyframes riojaGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.login-box {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-logo a {
+    color: #c8102e !important;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.btn-primary {
+    background-color: #c8102e !important;
+    border-color: #c8102e !important;
+    transition: background-color 0.3s ease;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #006b3c !important;
+    border-color: #006b3c !important;
+}
+
+.input-group-text {
+    background-color: #c8102e !important;
+    border: none;
+    color: white;
+}
+#togglePassword {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* =========================================================
+   🎨 Estilo Rioja refinado para Login y Registro
+   ========================================================= */
+
+body.login-page {
+    background: radial-gradient(circle at top, #b52626, #6e0b0b 80%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Caja del formulario */
+.login-box {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+/* Tarjeta general */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+/* Cabecera Rioja */
+.header-rioja, .card-header {
+    background: linear-gradient(90deg, #7b1113, #a12020, #c43b3b);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1rem;
+}
+
+/* Cuerpo */
+.card-body {
+    background-color: #fdfdfd;
+    padding: 2rem;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #ccc;
+    transition: all 0.2s;
+}
+
+.form-control:focus {
+    border-color: #a12020;
+    box-shadow: 0 0 5px rgba(161, 32, 32, 0.4);
+}
+
+/* Botones */
+.btn-primary, .btn-success.btn-rioja {
+    background: linear-gradient(90deg, #a12020, #c43b3b);
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    transition: 0.2s;
+}
+
+.btn-primary:hover, .btn-success.btn-rioja:hover {
+    background: #7b1113;
+    transform: scale(1.02);
+}
+
+.btn-secondary {
+    background: #666;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Alertas */
+.alert {
+    border-radius: 8px;
+    border-left: 5px solid #7b1113;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Ajuste login */
+.login-logo a {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Media query */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.2rem;
+    }
+}

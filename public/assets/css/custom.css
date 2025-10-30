@@ -1,0 +1,439 @@
+/* ============================================================
+   🌄 Estilo general — Identidad La Rioja
+   ============================================================ */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ============================================================
+   🧭 Navbar y Sidebar
+   ============================================================ */
+.navbar {
+    background-color: #006633 !important; /* verde oscuro bandera La Rioja */
+}
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: #ffcc00 !important; /* amarillo bandera Rioja */
+}
+.sidebar-dark-primary {
+    background: linear-gradient(to bottom,
+    #D52B1E 0%,   /* rojo */
+    #FFFFFF 25%,  /* blanco */
+    #007F3D 60%,  /* verde */
+    #FFD100 100%  /* amarillo */
+    ) !important;
+    color: #222;
+}
+.sidebar-dark-primary .nav-link,
+.sidebar-dark-primary .brand-link {
+    color: #000 !important;
+}
+.sidebar-dark-primary .nav-link.active {
+    background-color: rgba(255,255,255,0.3) !important;
+    color: #000 !important;
+}
+
+/* ============================================================
+   🎨 Botones y Formularios
+   ============================================================ */
+.form-control:focus {
+    border-color: #c8102e;
+    box-shadow: 0 0 5px rgba(200,16,46,0.5);
+}
+.btn {
+    border-radius: 6px !important;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Botones sólidos Rioja */
+.btn-primary {
+    background-color: #a12020 !important;
+    border-color: #7b1113 !important;
+}
+.btn-primary:hover {
+    background-color: #7b1113 !important;
+}
+.btn-success {
+    background-color: #326c34 !important;
+    border-color: #224d24 !important;
+}
+.btn-success:hover {
+    background-color: #224d24 !important;
+}
+.btn-danger {
+    background-color: #8c0f0f !important;
+    border-color: #5b0a0a !important;
+}
+.btn-danger:hover {
+    background-color: #5b0a0a !important;
+}
+
+/* Botones degradados */
+.btn-rioja {
+    background: linear-gradient(90deg, #6e0b14, #9c1d2b);
+    color: #fff !important;
+    border: none;
+}
+.btn-rioja:hover {
+    opacity: 0.9;
+}
+.btn-rioja-light {
+    background: #9c1d2b;
+    color: #fff !important;
+}
+.btn-rioja-light:hover {
+    background: #b92e3d;
+}
+.btn-rioja i {
+    color: #fff !important;
+}
+
+/* ============================================================
+   🧱 Tablas y Tarjetas
+   ============================================================ */
+.bg-gradient-maroon,
+.table thead.bg-gradient-maroon th,
+#tablaTarifas thead th {
+    background: linear-gradient(90deg, #7b1113, #a12020, #c43b3b) !important;
+    color: #fff !important;
+    border: none !important;
+    text-align: center;
+}
+#tablaTarifas tbody tr:hover {
+    background-color: rgba(193,55,55,0.1) !important;
+}
+.card {
+    border-radius: 8px;
+}
+
+/* ============================================================
+   🧭 Cabeceras Rioja unificadas
+   ============================================================ */
+.header-rioja {
+    background: linear-gradient(90deg, #7b1113, #a12020, #c43b3b) !important;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: none !important;
+}
+.header-rioja .card-title {
+    margin: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.header-rioja .btn-header {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 6px 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.header-rioja .btn-header:hover {
+    background: #f4f4f4;
+    color: #a12020;
+    transform: scale(1.03);
+}
+.header-rioja .btn-header i {
+    color: #a12020;
+}
+
+/* ============================================================
+   ⚠️ Alertas unificadas Rioja
+   ============================================================ */
+.alert {
+    border-radius: 8px;
+    border-left: 5px solid transparent;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 1rem auto;
+}
+.alert i { margin-right: 0.5rem; }
+.alert-success { border-left-color: #326c34; background: #eaf5ea; color: #1b5e20; }
+.alert-danger  { border-left-color: #7b1113; background: #fceaea; color: #5b0a0a; }
+.alert-warning { border-left-color: #ffb300; background: #fff6e5; color: #795548; }
+.alert-info    { border-left-color: #1976d2; background: #e7f3fe; color: #0d47a1; }
+
+@keyframes fadeInSlide {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.alert-animado { animation: fadeInSlide 0.6s ease-out; }
+
+/* ============================================================
+   ✨ Estilo Rioja Bandera - Login & Registro
+   ============================================================ */
+
+body.login-page {
+    /* Degradado inspirado en la bandera de La Rioja */
+    background: linear-gradient(
+            180deg,
+            #b12025 0%,        /* rojo */
+            #ffffff 25%,       /* blanco */
+            #007f3d 55%,       /* verde */
+            #ffd100 100%       /* amarillo */
+    );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    min-height: 100vh;
+}
+
+/* Caja principal centrada */
+.login-box {
+    width: 90%;
+    max-width: 850px;
+    margin: 60px auto;
+}
+
+/* Tarjeta con sombra clara */
+body.login-page .card {
+    background: rgba(255,255,255,0.9);
+    border-radius: 14px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+    color: #222;
+    animation: fadeInUp 0.8s ease-out;
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Cabecera superior tipo Rioja */
+.header-rioja, .card-header {
+    background: linear-gradient(90deg, #7b1113, #a12020, #c43b3b);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+/* Inputs */
+body.login-page .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+body.login-page .form-control::placeholder {
+    color: #888;
+}
+body.login-page .form-control:focus {
+    border-color: #a12020;
+    box-shadow: 0 0 8px rgba(161,32,32,0.3);
+    background: #fff;
+    color: #000;
+}
+
+/* Botones */
+body.login-page .btn-primary,
+body.login-page .btn-success.btn-rioja {
+    background: linear-gradient(90deg, #a12020, #7b1113);
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    transition: 0.2s;
+}
+body.login-page .btn-primary:hover,
+body.login-page .btn-success.btn-rioja:hover {
+    background: linear-gradient(90deg, #7b1113, #5a0b0d);
+    transform: scale(1.03);
+}
+
+/* Botón cancelar */
+body.login-page .btn-secondary {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+body.login-page .btn-secondary:hover {
+    background: #5a6268;
+}
+
+/* Iconos */
+.input-group-text {
+    background: #a12020;
+    border: none;
+    color: #fff;
+}
+.input-group-text i {
+    color: #fff !important;
+}
+
+/* Textos y etiquetas */
+body.login-page label {
+    font-weight: 500;
+    color: #222;
+}
+body.login-page small {
+    color: #555 !important;
+}
+
+/* Logo superior */
+.login-logo a {
+    color: #7b1113;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.6);
+}
+/* ============================================================
+   ✴️ Corrección iconos Login/Registro (visibles sobre fondo claro)
+   ============================================================ */
+body.login-page .input-group-text {
+    background: #f5f5f5;        /* gris muy claro */
+    border: 1px solid #ccc;
+    color: #7b1113 !important;  /* vino oscuro Rioja */
+}
+body.login-page .input-group-text i {
+    color: #7b1113 !important;  /* iconos visibles */
+}
+/* ===== 🎨 Logo inferior del sidebar (FRB) — versión fija, elegante y responsiva ===== */
+.sidebar-footer {
+    text-align: center;
+    position: absolute;
+    bottom: 20px; /* distancia al borde inferior */
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-footer img {
+    max-width: 110px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.sidebar-footer img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-footer p {
+    font-size: 0.75rem;
+    color: #222;
+    margin-top: 6px;
+    font-weight: 500;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* 📱 Responsivo para móvil y sidebar colapsado */
+@media (max-width: 992px) {
+    .sidebar-footer {
+        position: relative;
+        bottom: auto;
+        margin-top: 2rem;
+    }
+    .sidebar-footer img {
+        max-width: 90px;
+    }
+}
+
+/* 💡 Ocultar texto cuando el sidebar está colapsado */
+.sidebar-collapse .sidebar-footer p {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+/* =========================================================
+   🎨 Estilos adicionales - Recibos
+   ========================================================= */
+
+/* Tabla de resultados */
+.table thead th {
+    background: linear-gradient(90deg, #7b1113, #a12020, #c43b3b) !important;
+    color: #fff !important;
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(161, 32, 32, 0.08) !important;
+    transition: background-color 0.2s ease;
+}
+
+/* Iconos de desplazamiento */
+.fas.fa-car {
+    color: #2e7d32;
+    font-size: 1.1rem;
+}
+.fas.fa-minus {
+    color: #ccc;
+}
+
+/* Botones PDF */
+.btn-success, .btn-secondary {
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+.btn-success:hover, .btn-secondary:hover {
+    transform: scale(1.05);
+}
+/* === Botones superiores del listado === */
+.btn-group .btn {
+    border-radius: 8px !important;
+    font-weight: 600;
+    padding: 0.55rem 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-group .btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-group .btn i {
+    margin-right: 6px;
+}
+/* ==== Estilos botones tabla partidos ==== */
+.table td .btn-group .btn {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    margin: 0 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.table td .btn-group .btn i {
+    vertical-align: middle;
+}
+
+.table td .btn-group .btn-success:hover {
+    background-color: #218838;
+}
+
+.table td .btn-group .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.table td {
+    vertical-align: middle;
+}

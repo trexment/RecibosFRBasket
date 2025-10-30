@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b16cac37-b815-4a56-b78b-9143e71b3742" name="Changes" comment="App Funcional a falta de importaciones" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="33t8py6rAThBaHuvzbLLnXYgruH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "ToolWindow.make.ShowToolbar": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "W:/25/RecibosPHP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\25\RecibosPHP\app\libraries\PHPMailer" />
+      <recent name="W:\25\RecibosPHP\app\pdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\25\RecibosPHP\public" />
+      <recent name="W:\25\RecibosPHP\app\libraries\phpmailer" />
+      <recent name="W:\25\RecibosPHP\app\config" />
+      <recent name="W:\25\RecibosPHP\app\pdf" />
+      <recent name="W:\25\RecibosPHP\public\img" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.27397.112" />
+        <option value="bundled-php-predefined-a98d8de5180a-b35feea871ed-com.jetbrains.php.sharedIndexes-PS-252.27397.112" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b16cac37-b815-4a56-b78b-9143e71b3742" name="Changes" comment="" />
+      <created>1760125195565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760125195565</updated>
+      <workItem from="1760125196456" duration="4933000" />
+      <workItem from="1760175049397" duration="8318000" />
+      <workItem from="1760373528066" duration="2699000" />
+      <workItem from="1760391805340" duration="9079000" />
+      <workItem from="1760456892493" duration="565000" />
+      <workItem from="1760548250210" duration="6599000" />
+      <workItem from="1761117599430" duration="4251000" />
+      <workItem from="1761160745899" duration="1861000" />
+      <workItem from="1761202579206" duration="9952000" />
+      <workItem from="1761289979770" duration="3484000" />
+      <workItem from="1761333835278" duration="1709000" />
+      <workItem from="1761553960241" duration="14947000" />
+      <workItem from="1761585048532" duration="23222000" />
+      <workItem from="1761635295030" duration="21217000" />
+      <workItem from="1761669981958" duration="11227000" />
+      <workItem from="1761723866883" duration="20836000" />
+      <workItem from="1761757696529" duration="23879000" />
+      <workItem from="1761808448301" duration="6578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="App Funcional a falta de importaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="App Funcional a falta de importaciones" />
+  </component>
+</project>
